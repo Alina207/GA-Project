@@ -1,0 +1,110 @@
+body {
+    background: white;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 42px;
+    margin: 0 0 23px 0;
+    }
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+    }
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
+
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+  position: absolute;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ddd;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    margin-bottom: 0;
+
+}
+
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: gray;
+}
+
+.jumbotron {
+    background: url(../images/backgroundpic.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 26px;
+}
+
+.motto h1 {
+    text-align: center;
+    color: gray;
+    font-size: 60px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 35px;
+}
+
+.motto p {
+    margin: 0px 25px 0px 35px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+
+}
+
+
+
+
